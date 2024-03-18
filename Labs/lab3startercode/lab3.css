@@ -1,0 +1,77 @@
+h1 {
+    margin: 0; /* Reset margin for h1 */
+}
+
+#Section1 {
+    background: #ccd5ae;
+    border-color: black;
+    border-right-style: solid;
+    text-align: center; /* Center align the text within the section */
+    border: 2px solid black; 
+
+
+}
+
+/* Style for buttons */
+#Section1 button {
+    margin: 7px;
+    font-size: 16px;
+
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left-align {
+    text-align: left;
+    font-size: 35px;
+    color: #7f5539;
+
+
+
+}
+p{
+    font-size: 26px;
+}
+ body {
+    background-color: #fefae0; /* Replace with your desired color code */
+    margin: 5px; /* Remove default margin */
+     padding-top: 0px;
+
+
+ } 
+ .image-and-text-container {
+    overflow: hidden; /* Clear the float */
+    padding-right: 1px;/* i used this one to keep space between image and text */
+    margin: 0px;
+}
+
+.right-image {
+    float: right; /* Float the image to the right */
+    margin-right: 15px; /* Add some space between the image and the text */
+    width: 200px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    padding-left: 10px;
+    
+}
+
+  figcaption {
+   margin: 0%;
+   display: block;
+
+}  
+.left-align3{
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.left-align4{
+    text-align: center;
+    text-size-adjust: 20px;
+    padding:right ;
+    margin-left : 10px;
+    margin-right : 10px;
+    background-color: #ffe8d6;
+    
+}
+.footer{
+font-style: italic;
+}

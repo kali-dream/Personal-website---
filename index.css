@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #264653;
+    color: #2A9D8F;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to/*final state of animation*/ {
+        opacity: 1;
+    }
+}
+
+header {
+    background-color: #E9C46A;
+    color: #264653;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.3s;/*smooth transition after hovering with color change */
+}
+
+nav ul li a {
+    color: #264653;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E9C46A;/*navigation menu links*/
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #E9C46A;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+section:hover {
+    background-color: #fff389;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    float: right; /* Float the image to the right */
+    margin: 0 0 20px 20px; /* Add some margin to separate the image from the text */
+    border-radius: 50%; /* Makes the image round */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
+nav ul {
+    list-style-type: none;/*Removes the default bullet points from the list.*/
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+/* CSS for the course section */
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course {
+    flex: 1 0 300px; /* Each course item should have a width of 300px */
+    margin: 10px; /* Add some margin around each course item */
+    padding: 15px; /* Add padding inside each course item */
+    border: 1px solid #ddd; /* Add a border around each course item */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    background-color: #f9f9f9; /* Set a background color for each course item */
+}
+
+.course-info {/*Styles the information within each course item.*/
+    text-align: left;
+}
+
+.course-info h3 {
+    margin-top: 0;
+}
+
+.course-info p {
+    margin-bottom: 5px;
+}

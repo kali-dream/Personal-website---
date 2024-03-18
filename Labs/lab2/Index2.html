@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nandan Gadhiya">
+    <title>LAB2</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+
+<body>
+
+    <fieldset>
+
+    <form>
+        <header>
+            <h3 style="color: rgb(221, 112, 73);">Order Form</h3>
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <label>Name:</label>
+                <input type="text" name="Name" id="Name" value="Nandan Gadhiya" size="30" readonly disabled><br>
+                <br>
+                <Label>Email:</Label>
+                <input type="text" name="Email" id="Email" value="gadh0010@algonquinlive." size="34" readonly><br>
+                <br>
+                <Label>Address:</Label>
+                <textarea name="Address" id="Address" cols="25" rows="4"></textarea><br>
+                <br>
+                <label>Postcode:</label>
+                <input type="text" name="Postcode" id="Postcode"><br>
+
+            </fieldset>
+            
+        </header><br>
+        <fieldset>
+            <legend><strong>Product Information </strong></legend>
+            <table border="">
+                <tr>
+                    <th>Product</th>
+                    <th>Part Number</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>Box</td>
+                    <td>AC100</td>
+                    <td></td>
+                    <td>$5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Coffee Table</td>
+                    <td>AC200</td>
+                    <td></td>
+                    <td>$100</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Chair</td>
+                    <td>AC300</td>
+                    <td></td>
+                    <td>$150</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Desk</td>
+                    <td>AC400</td>
+                    <td></td>
+                    <td>$120</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Computer Table</td>
+                    <td>AC500</td>
+                    <td></td>
+                    <td>$130</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="right">Total:</td>
+                    <td></td>
+                </tr>
+            </table>
+
+    </fieldset>
+            <br>
+            <legend><strong>Credit Card Information</strong></legend><br>
+            <Label>Card Type:</Label><br>
+            <Input type="radio" name="radio">
+            <Label>Mastercard</Label>
+            <label> Card Number:</label>
+            <Input type="text"><br>
+            <input type="radio" name="radio">
+            <label>Visa</label><br>
+            <input type="radio" name="radio">
+            <label>Gift Card</label>
+            <label>Expiry date:</label>
+            <input type="date"><br>
+            <br>
+            <Label><strong>D Address:</strong></Label>
+            <textarea name="D Address" id="dAddress" cols="25" rows="4"></textarea><br>
+            <br>
+            <input type="submit" value="Send Order">
+            <input type="reset" value="Clear Form">
+            </fieldset>
+    
+    </form>
+</body>
+</html>
